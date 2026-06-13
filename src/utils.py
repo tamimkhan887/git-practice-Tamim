@@ -8,6 +8,8 @@ def multiply(a,b):
     return a*b
  
 def division(a,b):
-    return a/b 
+    if b == 0 :
+        return "Error can't divide by zero"
+    return a /b 
 
 
